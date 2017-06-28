@@ -43,7 +43,7 @@
         });
         function menuClick(index) {
             if (index == 1) {
-                $("#titleA").html("雪花的快乐");
+                $("#titleA").html("雪花的快乐1");
                 $("#titleB").html("酒店管理");
                 var url = '${basePath}user/user.jsp';
                 $("#mainFrame").attr("src", url);
